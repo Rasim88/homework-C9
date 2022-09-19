@@ -55,14 +55,11 @@ int N = Convert.ToInt32(Console.ReadLine());
 
 AkkermanFunction(M,N);
 
-
-// вызов функции Аккермана
 void AkkermanFunction(int M, int N)
 {
     Console.Write(Akkerman(M, N)); 
 }
 
-// функция Аккермана
 int Akkerman(int M, int N)
 {
     if (M == 0)
